@@ -24,7 +24,7 @@
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage{hyperref}
 \hypersetup{
-     citecolor    = blue
+     citecolor = blue
 }
 
 \usepackage{fancyhdr}\pagestyle{fancy} %for fancy headers and footers
@@ -36,7 +36,6 @@
 \usepackage{blindtext}
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
-
 \raggedbottom
 
 \includeonly{pages/title,%
@@ -57,11 +56,11 @@
 %-----------------
 
 \include{pages/title}
-% \include{pages/copyright}
-% \include{pages/dedication}
-% \include{pages/certificate}
-% \include{pages/declaration}
-% \include{pages/acknowledgements}
+\include{pages/copyright}
+\include{pages/dedication}
+\include{pages/certificate}
+\include{pages/declaration}
+\include{pages/acknowledgements}
 \include{pages/abstract}
 
 %-----
@@ -87,12 +86,12 @@
 \input{chapters/ch5} 
 \input{chapters/ch6} 
 \onehalfspacing
-%\appendix
-% \begin{appendices}
-%\include{pages/app1}	
-%\include{Main-pages/app2}	
-%\include{Main-pages/app3}		
-% \end{appendices}
+\appendix
+\begin{appendices}
+\include{pages/app1}	
+\include{Main-pages/app2}	
+\include{Main-pages/app3}		
+\end{appendices}
 
 \bibliographystyle{plain}	
 \bibliography{references}

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.11)  12 AUG 2020 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.11)  24 AUG 2020 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**thesis.tex
+(./thesis.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
@@ -247,9 +247,9 @@ Package tocbasic Info: setting babel extension for `nls' on input line 156.
 \nomitemsep=\skip47
 )
 \@nomenclaturefile=\write3
-\openout3 = `main.nlo'.
+\openout3 = `thesis.nlo'.
 
-Package nomencl Info: Writing nomenclature file main.nlo on input line 10.
+Package nomencl Info: Writing nomenclature file thesis.nlo on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
@@ -483,27 +483,32 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count139
 \c@blind@pangramcount=\count140
 \c@blind@pangrammax=\count141
-) (./main.aux
-(./pages/title.aux) (./pages/abstract.aux))
-\openout1 = `main.aux'.
+) (./thesis.aux
+(./pages/title.aux) (./pages/copyright.aux) (./pages/dedication.aux)
+No file pages/certificate.aux.
+(./pages/declaration.aux) (./pages/acknowledgements.aux) (./pages/abstract.aux)
+No file pages/app1.aux.
+No file Main-pages/app2.aux.
+No file Main-pages/app3.aux.
+)
+\openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 51.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 50.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -573,7 +578,7 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package tocbasic Info: usage of `tocbibind' detected on input line 51.
+Package tocbasic Info: usage of `tocbibind' detected on input line 50.
 
 
 Package tocbasic Warning: `tocbibind' redefinition of `\listoffigures'
@@ -592,7 +597,7 @@ Package tocbasic Warning: `tocbibind' redefinition of `\listoftables'
 (tocbasic)                this warning message.
 
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 51.
+Package hyperref Info: Link coloring OFF on input line 50.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -601,13 +606,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count148
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
-LaTeX Info: Redefining \nameref on input line 51.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
 
-(./main.out) (./main.out)
+(./thesis.out) (./thesis.out)
 \@outlinefile=\write4
-\openout4 = `main.out'.
+\openout4 = `thesis.out'.
 
 \openout2 = `pages/title.aux'.
 
@@ -618,7 +623,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 12.
-<images/jnulogo.jpg, id=277, 273.27094pt x 273.27094pt>
+<images/jnulogo.jpg, id=233, 273.27094pt x 273.27094pt>
 File: images/jnulogo.jpg Graphic file (type jpg)
 <use images/jnulogo.jpg>
 Package pdftex.def Info: images/jnulogo.jpg  used on input line 15.
@@ -627,9 +632,28 @@ Package pdftex.def Info: images/jnulogo.jpg  used on input line 15.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/jnulogo.jpg>])
-\openout2 = `pages/abstract.aux'.
+\openout2 = `pages/copyright.aux'.
 
- (./pages/abstract.tex
+ (./pages/copyright.tex
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 \include{pages/copyright}
+                               [1
+
+
+]
+\openout2 = `pages/dedication.aux'.
+
+ (./pages/dedication.tex
 LaTeX Font Info:    Try loading font information for T1+pbk on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pbk.fd
@@ -643,91 +667,125 @@ LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <100> not available
 
 Package xcolor Warning: Incompatible color definition on input line 2.
 
-)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.65 \include{pages/abstract}
-                              [1
+) [2
 
 
 
 ]
+\openout2 = `pages/declaration.aux'.
 
-Package xcolor Warning: Incompatible color definition on input line 70.
+ (./pages/declaration.tex
 
-(./main.toc
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 5.
+Package xcolor Warning: Incompatible color definition on input line 2.
 
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 5.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 9.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 9.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 5.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 9.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 5.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
- [2
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+) [3
+
+
 
 
 ]
+\openout2 = `pages/acknowledgements.aux'.
+
+
+(./pages/acknowledgements.tex
+
+Package xcolor Warning: Incompatible color definition on input line 2.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)) [4
+
+
+
+]
+\openout2 = `pages/abstract.aux'.
+
+
+(./pages/abstract.tex
+
+Package xcolor Warning: Incompatible color definition on input line 2.
+
+) [5
+
+
+
+]
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+(./thesis.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+ [6
+
+
+])
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[3])
-\tf@toc=\write5
-\openout5 = `main.toc'.
+[7]
 
- [4]
+Package xcolor Warning: Incompatible color definition on input line 70.
 
-Package xcolor Warning: Incompatible color definition on input line 71.
-
-(./main.lof)
+(./thesis.lof)
 \tf@lof=\write6
-\openout6 = `main.lof'.
+\openout6 = `thesis.lof'.
 
- [5
+ [8
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 72.
+Package xcolor Warning: Incompatible color definition on input line 71.
 
-(./main.lot)
+(./thesis.lot)
 \tf@lot=\write7
-\openout7 = `main.lot'.
+\openout7 = `thesis.lot'.
 
 
-No file main.nls.
-[6
+No file thesis.nls.
+[9
 
 ] (./chapters/ch1.tex
 Chapter 1.
@@ -737,18 +795,13 @@ Package xcolor Warning: Incompatible color definition on input line 2.
 [1
 
 
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 13.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [2]
-<images/sequencing_stats.png, id=413, 725.71124pt x 394.47375pt>
+] [2]
+<images/sequencing_stats.png, id=375, 725.71124pt x 394.47375pt>
 File: images/sequencing_stats.png Graphic file (type png)
 <use images/sequencing_stats.png>
 Package pdftex.def Info: images/sequencing_stats.png  used on input line 35.
 (pdftex.def)             Requested size: 432.48183pt x 235.08496pt.
-)
-(./chapters/ch2.tex [3] [4 <./images/sequencing_stats.png (PNG copy)>]
+) (./chapters/ch2.tex [3] [4 <./images/sequencing_stats.png (PNG copy)>]
 Chapter 2.
 
 Package xcolor Warning: Incompatible color definition on input line 2.
@@ -763,27 +816,22 @@ Chapter 3.
 
 Package xcolor Warning: Incompatible color definition on input line 2.
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 8.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
- [10
+[10
 
 ]
-<images/backterial_genome.png, id=471, 1457.445pt x 1697.34125pt>
+<images/backterial_genome.png, id=432, 1457.445pt x 1697.34125pt>
 File: images/backterial_genome.png Graphic file (type png)
 <use images/backterial_genome.png>
 Package pdftex.def Info: images/backterial_genome.png  used on input line 20.
 (pdftex.def)             Requested size: 389.231pt x 453.2897pt.
  [11 <./images/backterial_genome.png>] [12] [13]
-<images/vaccine.png, id=490, 639.38875pt x 499.8675pt>
+<images/vaccine.png, id=451, 639.38875pt x 499.8675pt>
 File: images/vaccine.png Graphic file (type png)
 <use images/vaccine.png>
 Package pdftex.def Info: images/vaccine.png  used on input line 72.
 (pdftex.def)             Requested size: 389.231pt x 304.3009pt.
-) (./chapters/ch4.tex [14] [15 <./images/vaccine.png>]
+) (./chapters/ch4.tex
+[14] [15 <./images/vaccine.png>]
 Chapter 4.
 
 Package xcolor Warning: Incompatible color definition on input line 2.
@@ -791,13 +839,13 @@ Package xcolor Warning: Incompatible color definition on input line 2.
 [16
 
 ]
-<images/fastqc.png, id=513, 764.8575pt x 524.96124pt>
+<images/fastqc.png, id=475, 764.8575pt x 524.96124pt>
 File: images/fastqc.png Graphic file (type png)
 <use images/fastqc.png>
 Package pdftex.def Info: images/fastqc.png  used on input line 24.
 (pdftex.def)             Requested size: 302.73595pt x 207.78596pt.
  [17 <./images/fastqc.png>]
-<images/multiqc.png, id=527, 204.765pt x 108.405pt>
+<images/multiqc.png, id=489, 204.765pt x 108.405pt>
 File: images/multiqc.png Graphic file (type png)
 <use images/multiqc.png>
 Package pdftex.def Info: images/multiqc.png  used on input line 36.
@@ -828,7 +876,10 @@ n-ver-sions, du-pli-ca-tions, translo-
 
 [25
 
-] [26]) (./main.bbl [27]
+] [26]) [27] [28
+
+
+] (./thesis.bbl
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -838,7 +889,10 @@ Underfull \hbox (badness 3128) in paragraph at lines 25--29
 u-dia Chica,
  []
 
-) (./pages/credits.tex [28
+) (./pages/credits.tex [29
+
+
+
 
 ]
 
@@ -851,37 +905,44 @@ o _ Write _ a _ Thesis _ in _ LaTeX$[]
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
- [29
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+ [30
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
- (./main.aux (./pages/title.aux) (./pages/abstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2C3F11D0CEA2EC40B28665B3C7FEAF90;4944.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+ (./thesis.aux (./pages/title.aux) (./pages/copyright.aux)
+(./pages/dedication.aux)
+No file pages/certificate.aux.
+(./pages/declaration.aux) (./pages/acknowledgements.aux) (./pages/abstract.aux)
+No file pages/app1.aux.
+No file Main-pages/app2.aux.
+No file Main-pages/app3.aux.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 98DB044F17A777E6BC67C6ECCE9525C3;3996.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 10783 strings out of 494553
- 160651 string characters out of 6177377
- 303515 words of memory out of 5000000
- 14082 multiletter control sequences out of 15000+600000
+ 10815 strings out of 494553
+ 161309 string characters out of 6177377
+ 304438 words of memory out of 5000000
+ 14086 multiletter control sequences out of 15000+600000
  48034 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,12n,77p,1762b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/jubayer/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.6
-00pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/tex
+ 42i,11n,77p,1764b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/jubayer/.t
+exlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (36 pages, 1532426 bytes).
+Output written on thesis.pdf (40 pages, 1532523 bytes).
 PDF statistics:
- 691 PDF objects out of 1000 (max. 8388607)
- 593 compressed objects within 6 object streams
- 130 named destinations out of 1000 (max. 500000)
- 575 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 658 PDF objects out of 1000 (max. 8388607)
+ 556 compressed objects within 6 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 487 words of extra memory for PDF output out of 10000 (max. 10000000)
 

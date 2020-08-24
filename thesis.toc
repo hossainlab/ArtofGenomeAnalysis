@@ -1,6 +1,7 @@
-\contentsline {chapter}{Abstract}{i}{chapter*.1}% 
-\contentsline {chapter}{List of Figures}{v}{chapter*.3}% 
-\contentsline {chapter}{List of Tables}{vi}{chapter*.4}% 
+\contentsline {chapter}{Credits}{iv}{chapter*.3}% 
+\contentsline {chapter}{Abstract}{v}{chapter*.4}% 
+\contentsline {chapter}{List of Figures}{viii}{chapter*.6}% 
+\contentsline {chapter}{List of Tables}{ix}{chapter*.7}% 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}A Little Intro to Bioinformatics and Genomics}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Why Learn and Apply Genomics?}{2}{section.1.2}% 
@@ -51,18 +52,6 @@
 \contentsline {subsection}{\numberline {6.1.1}Classic alignment algorithms}{25}{subsection.6.1.1}% 
 \contentsline {subsection}{\numberline {6.1.2}Comparative genomics}{26}{subsection.6.1.2}% 
 \contentsline {section}{\numberline {6.2}Preprocessing Sequencing Data}{26}{section.6.2}% 
-\contentsline {subsection}{\numberline {6.2.1}Quality control of sequencing data}{27}{subsection.6.2.1}% 
-\contentsline {subsection}{\numberline {6.2.2}Adapter and quality trimming}{27}{subsection.6.2.2}% 
-\contentsline {subsection}{\numberline {6.2.3}Filtering contamination}{27}{subsection.6.2.3}% 
-\contentsline {section}{\numberline {6.3}Mapping Sequencing Data}{27}{section.6.3}% 
-\contentsline {subsection}{\numberline {6.3.1}Goals and problems of short reads alignment}{27}{subsection.6.3.1}% 
-\contentsline {subsection}{\numberline {6.3.2}Alignment file formats}{27}{subsection.6.3.2}% 
-\contentsline {subsection}{\numberline {6.3.3}Short read alignment}{27}{subsection.6.3.3}% 
-\contentsline {subsection}{\numberline {6.3.4}Variation calling}{27}{subsection.6.3.4}% 
-\contentsline {section}{\numberline {6.4}QC using read alignment}{27}{section.6.4}% 
-\contentsline {subsection}{\numberline {6.4.1}Long error-prone read alignment}{27}{subsection.6.4.1}% 
-\contentsline {subsection}{\numberline {6.4.2}De Novo Genome Assembly}{27}{subsection.6.4.2}% 
-\contentsline {subsection}{\numberline {6.4.3}De novo assembly using long reads}{27}{subsection.6.4.3}% 
-\contentsline {subsection}{\numberline {6.4.4}De novo assembly using short reads}{27}{subsection.6.4.4}% 
-\contentsline {chapter}{Refrences}{28}{chapter*.10}% 
-\contentsline {chapter}{Typesetting Credits}{29}{chapter*.11}% 
+\contentsline {chapter}{Appendices}{28}{section*.13}% 
+\contentsline {chapter}{Refrences}{29}{appendix*.14}% 
+\contentsline {chapter}{Typesetting Credits}{30}{appendix*.15}% 
